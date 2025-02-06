@@ -182,10 +182,44 @@ nav ul li a {
 }
 
 .poules__container__matchs {
-  width: 100%;
-  height: 100%;
-  background-color: brown;
   display: none;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.poules__container__matchs__versus {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+.poules__container__matchs__versus .vs {
+  font-weight: 400;
+}
+.poules__container__matchs__versus__joueur {
+  padding: 4px 8px 4px 4px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f5f5;
+  width: 100%;
+}
+.poules__container__matchs__versus__joueur > p {
+  margin: 0;
+  color: #E9B901;
+}
+.poules__container__matchs__versus__joueur div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.poules__container__matchs__versus__joueur div img {
+  width: 36px;
+  height: 36px;
+}
+.poules__container__matchs__versus__joueur div p {
+  margin: 0;
 }
 
 /* SECTION WINRATE */

@@ -7,6 +7,7 @@ li.forEach((lii) => {
   });
 });
 
+/*
 const linkPoules = document.getElementById("linkPoules");
 const linkFinale = document.getElementById("linkFinale");
 const linkWinrate = document.getElementById("linkWinrate");
@@ -29,14 +30,7 @@ linkPoules.addEventListener("click", function () {
   sectionWinrate.style.display = "none";
   sectionCartes.style.display = "none";
 });
-
-const groupeOnglet = document.querySelectorAll(
-  ".poules__container__onglets button"
-);
-const btnClassement = document.getElementById("btnClassement");
-const blocClassement = document.querySelector(".poules__container__classement");
-const btnMatchs = document.getElementById("btnMatchs");
-const blocMatchs = document.querySelector(".poules__container__matchs");
+*/
 
 const fetchData = async () => {
   try {
@@ -75,7 +69,7 @@ const fetchData = async () => {
         poulesContainerOnglets.appendChild(btnClassement);
         poulesContainerOnglets.appendChild(btnMatchs);
 
-        // Div classement
+        //————— BLOC CLASSEMENT —————//
         const poulesContainerClassement = document.createElement("div");
         poulesContainerClassement.classList.add(
           "poules__container__classement"
@@ -114,6 +108,7 @@ const fetchData = async () => {
           poulesContainerClassementListJoueurs
         );
 
+        //————— GÉNÉRATOR JOUEUR —————//
         for (let j = 0; j < dataPoules[i].joueurs.length; j++) {
           dataPoules[i].joueurs.sort(
             (a, b) => parseInt(b.points) - parseInt(a.points)
@@ -144,7 +139,6 @@ const fetchData = async () => {
             joueurPointsDecklists
           );
           joueurPointsDecklists.classList.add("joueur__ptsDecklist");
-
           // Nombre points
           const joueurPoints = document.createElement("p");
           joueurPoints.innerText = dataPoules[i].joueurs[j].points;
@@ -153,40 +147,109 @@ const fetchData = async () => {
           const joueurDecklistLink = document.createElement("a");
           joueurDecklistLink.href = dataPoules[i].joueurs[j].decklist;
           joueurDecklistLink.setAttribute("target", "_blank");
-          joueurPointsDecklists.appendChild(
-            joueurDecklistLink
-          );
+          joueurPointsDecklists.appendChild(joueurDecklistLink);
           const joueurDecklistImg = document.createElement("img");
           joueurDecklistImg.src = "assets/icon-decklist.png";
           joueurDecklistLink.appendChild(joueurDecklistImg);
         }
 
-        // Div matchs
+        //————— BLOC MATCHS —————//
         const poulesContainerMatchs = document.createElement("div");
         poulesContainerMatchs.classList.add("poules__container__matchs");
         poulesContainer.appendChild(poulesContainerMatchs);
+
+        for (let m = 0; m < dataPoules[i].matchs.length; m++) {
+          // Div matchs__versus
+          const poulesContainerMatchsVersus = document.createElement("div");
+          poulesContainerMatchsVersus.classList.add(
+            "poules__container__matchs__versus"
+          );
+          poulesContainerMatchs.appendChild(poulesContainerMatchsVersus);
+          // Div matchs__versus_joueur1
+          const poulesContainerMatchsVersusJoueur1 =
+            document.createElement("div");
+          poulesContainerMatchsVersusJoueur1.classList.add(
+            "poules__container__matchs__versus__joueur"
+          );
+          poulesContainerMatchsVersus.appendChild(
+            poulesContainerMatchsVersusJoueur1
+          );
+          // Div versusImgNom
+          const versusImgNom1 = document.createElement("div");
+          poulesContainerMatchsVersusJoueur1.appendChild(versusImgNom1);
+          // Img héros joueur 1
+          const versusJoueur1Img = document.createElement("img");
+          versusJoueur1Img.src = "assets/heros/small/y-akesha.png";
+          versusImgNom1.appendChild(versusJoueur1Img);
+
+          // Versus Joueur 1 nom
+          const versusJoueur1Nom = document.createElement("p");
+          versusJoueur1Nom.innerText = dataPoules[i].matchs[m].joueur1;
+          versusImgNom1.appendChild(versusJoueur1Nom);
+
+          // Versus Joueur 1 win
+          const versusJoueur1Win = document.createElement("p");
+          versusJoueur1Win.innerText = "WIN";
+          poulesContainerMatchsVersusJoueur1.appendChild(versusJoueur1Win);
+
+          // Versus p
+          const versusP = document.createElement("p");
+          versusP.innerText = "vs";
+          versusP.classList.add("vs");
+          poulesContainerMatchsVersus.appendChild(versusP);
+
+          // Div matchs__versus_joueur2
+          const poulesContainerMatchsVersusJoueur2 =
+            document.createElement("div");
+          poulesContainerMatchsVersusJoueur2.classList.add(
+            "poules__container__matchs__versus__joueur"
+          );
+          poulesContainerMatchsVersus.appendChild(
+            poulesContainerMatchsVersusJoueur2
+          );
+          // Div versusImgNom
+          const versusImgNom2 = document.createElement("div");
+          poulesContainerMatchsVersusJoueur2.appendChild(versusImgNom2);
+          // Img héros joueur 2
+          const versusJoueur2Img = document.createElement("img");
+          versusJoueur2Img.src = "assets/heros/small/y-afanas.png";
+          versusImgNom2.appendChild(versusJoueur2Img);
+          // Versus Joueur 1 nom
+          const versusJoueur2Nom = document.createElement("p");
+          versusJoueur2Nom.innerText = dataPoules[i].matchs[m].joueur2;
+          versusImgNom2.appendChild(versusJoueur2Nom);
+
+          // Versus Joueur 1 win
+          const versusJoueur2Win = document.createElement("p");
+          versusJoueur2Win.innerText = "WIN";
+          poulesContainerMatchsVersusJoueur2.appendChild(versusJoueur2Win);
+        }
+
+        //————— ONGLET SWITCH —————//
+        const groupeOnglet = document.querySelectorAll(
+          ".poules__container__onglets button"
+        );
+        // Switch onglet
+        for (let i = 0; i < groupeOnglet.length; i++) {
+          groupeOnglet[i].addEventListener("click", function () {
+            document.querySelector(".btnActif").classList.remove("btnActif"); //suppr la class active
+            groupeOnglet[i].classList.add("btnActif"); //ajoute la class sur élément cliqué
+          });
+        }
+        // Onglet classement
+        btnClassement.addEventListener("click", function () {
+          poulesContainerClassement.style.display = "block";
+          poulesContainerMatchs.style.display = "none";
+        });
+        // Onglet match
+        btnMatchs.addEventListener("click", function () {
+          poulesContainerClassement.style.display = "none";
+          poulesContainerMatchs.style.display = "block";
+        });
       }
     }
 
     generatorPoules(dataPoules);
-
-    // SWICTH ONGLET BG
-    for (let i = 0; i < groupeOnglet.length; i++) {
-      groupeOnglet[i].addEventListener("click", function () {
-        document.querySelector(".btnActif").classList.remove("btnActif"); //suppr la class active
-        groupeOnglet[i].classList.add("btnActif"); //ajoute la class sur élément cliqué
-      });
-    }
-    // ONGLET CLASSEMENT
-    btnClassement.addEventListener("click", function () {
-      blocClassement.style.display = "block";
-      blocMatchs.style.display = "none";
-    });
-    // ONGLET MATCH
-    btnMatchs.addEventListener("click", function () {
-      blocClassement.style.display = "none";
-      blocMatchs.style.display = "block";
-    });
   } catch (error) {
     console.error("Erreur lors de la récupération des données :", error);
   }
