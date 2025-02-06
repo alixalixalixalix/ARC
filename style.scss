@@ -1,0 +1,210 @@
+$bg-color: #f8f5f5;
+
+* {
+  font-family: "tiller", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.marginApp {
+  max-width: 1440px;
+  padding: 0 36px 0 36px;
+  margin: auto;
+  width: 90%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+  select {
+    max-width: 1440px;
+    width: 90%;
+    margin: 24px 0 36px 0;
+    font-size: 18px;
+    padding: 8px 12px 8px 12px;
+    border: 0;
+    border-radius: 8px;
+    background-color: $bg-color;
+    font-weight: 400;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    li {
+      list-style-type: none;
+      font-weight: 400;
+      font-size: 18px;
+      color: black;
+      opacity: 0.3;
+      padding-bottom: 12px;
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+.navActiv {
+  border-bottom: 3px solid black;
+  opacity: 1;
+}
+
+#sectionPoules,
+#sectionFinale,
+#sectionWinrate,
+#sectionCartes {
+  height: 1000px;
+  width: 100vw;
+  padding-top: 36px;
+}
+
+#sectionFinale {
+  background: red;
+  display: none;
+}
+
+#sectionWinrate {
+  background: blueviolet;
+  display: none;
+}
+
+#sectionCartes {
+  background: greenyellow;
+  display: none;
+}
+
+#sectionPoules {
+  background-color: $bg-color;
+  #listeArticles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 36px 24px;
+  }
+  article {
+    width: 48%;
+    gap: 24px;
+    & > p {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+    }
+  }
+}
+
+.poules__container {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  &__onglets {
+    display: flex;
+    gap: 6px;
+    button {
+      font-size: 14px;
+      border-radius: 8px;
+      border: 0;
+      padding: 4px 8px;
+      background-color: white;
+      cursor: pointer;
+      &.btnActif {
+        background-color: $bg-color;
+      }
+    }
+  }
+}
+
+.poules__container__classement {
+  &__legendes {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    div {
+      display: flex;
+      gap: 36px;
+    }
+    p {
+      font-weight: 400;
+      margin-top: 12px;
+      margin-bottom: 8px;
+    }
+  }
+  &__listJoueurs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    &__joueur {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      background-color: $bg-color;
+      border-radius: 8px;
+      padding: 4px 16px 4px 4px;
+      align-items: center;
+      p {
+        margin: 0;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      img {
+        width: 36px;
+        height: 36px;
+      }
+      .joueur__ptsDecklist {
+        display: flex;
+        gap: 64px;
+        p {
+          width: 14px;
+        }
+        a {
+          width: 24px;
+          height: 24px;
+          margin-left: 3px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.poules__container__matchs {
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+  display: none;
+}
+
+/* SECTION WINRATE */
+
+.heros {
+  display: flex;
+}
+
+.heros__top {
+  min-width: 198px;
+  height: 98px;
+}
+
+.heros__top p {
+  height: 100%;
+}

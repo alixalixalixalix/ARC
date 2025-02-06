@@ -1,0 +1,52 @@
+[
+    {
+        "poule": "1",
+        "joueur": {
+            "id": "1",
+            "nom": "Djaack",
+            "points": "0",
+            "heros": "assets/heros/basira.png",
+            "decklist": "https://alteredtcg.fr"
+        }
+    },
+    {
+        "poule": "1",
+        "joueur": {
+            "id": "2",
+            "nom": "JoliRougeGorge",
+            "points": "0",
+            "heros": "assets/heros/basira.png",
+            "decklist": "https://alteredtcg.fr"
+        }
+    },
+    {
+        "poule": "1",
+        "joueur": {
+            "id": "3",
+            "nom": "Djaack",
+            "points": "0",
+            "heros": "assets/heros/basira.png",
+            "decklist": "https://alteredtcg.fr"
+        }
+    },
+    {
+        "poule": "1",
+        "joueur": {
+            "id": "4",
+            "nom": "Djaack",
+            "points": "0",
+            "heros": "assets/heros/basira.png",
+            "decklist": "https://alteredtcg.fr"
+        }
+    },
+    {
+        "poule": "1",
+        "joueur": {
+            "id": "5",
+            "nom": "Djaack",
+            "points": "0",
+            "heros": "assets/heros/basira.png",
+            "decklist": "https://alteredtcg.fr"
+        }
+    }
+]

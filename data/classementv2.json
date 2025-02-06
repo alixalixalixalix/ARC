@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "nom": "Djaack",
+        "poule": "1",
+        "points": "3",
+        "heros": "assets/heros/small/b-basira.png",
+        "decklist": "https://alteredtcg.fr"
+    },
+    {
+        "id": "2",
+        "nom": "JoliRougeGorge",
+        "poule": "1",
+        "points": "3",
+        "heros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+    },
+    {
+        "id": "3",
+        "nom": "Kafock",
+        "poule": "1",
+        "points": "0",
+        "heros": "assets/heros/small/a-sierra.png",
+        "decklist": "https://alteredtcg.fr"
+    },
+    {
+        "id": "4",
+        "nom": "Keg",
+        "poule": "1",
+        "points": "2",
+        "heros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+    },
+    {
+        "id": "5",
+        "nom": "Yann",
+        "poule": "1",
+        "points": "2",
+        "heros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+    }
+]

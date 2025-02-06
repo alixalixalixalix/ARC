@@ -1,0 +1,203 @@
+* {
+  font-family: "tiller", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.marginApp {
+  max-width: 1440px;
+  padding: 0 36px 0 36px;
+  margin: auto;
+  width: 90%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  width: 100%;
+}
+header select {
+  max-width: 1440px;
+  width: 90%;
+  margin: 24px 0 36px 0;
+  font-size: 18px;
+  padding: 8px 12px 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #f8f5f5;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  opacity: 0.3;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navActiv {
+  border-bottom: 3px solid black;
+  opacity: 1;
+}
+
+#sectionPoules,
+#sectionFinale,
+#sectionWinrate,
+#sectionCartes {
+  height: 1000px;
+  width: 100vw;
+  padding-top: 36px;
+}
+
+#sectionFinale {
+  background: red;
+  display: none;
+}
+
+#sectionWinrate {
+  background: blueviolet;
+  display: none;
+}
+
+#sectionCartes {
+  background: greenyellow;
+  display: none;
+}
+
+#sectionPoules {
+  background-color: #f8f5f5;
+}
+#sectionPoules #listeArticles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 36px 24px;
+}
+#sectionPoules article {
+  width: 48%;
+  gap: 24px;
+}
+#sectionPoules article > p {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+}
+
+.poules__container {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+}
+.poules__container__onglets {
+  display: flex;
+  gap: 6px;
+}
+.poules__container__onglets button {
+  font-size: 14px;
+  border-radius: 8px;
+  border: 0;
+  padding: 4px 8px;
+  background-color: white;
+  cursor: pointer;
+}
+.poules__container__onglets button.btnActif {
+  background-color: #f8f5f5;
+}
+
+.poules__container__classement__legendes {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.poules__container__classement__legendes div {
+  display: flex;
+  gap: 36px;
+}
+.poules__container__classement__legendes p {
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.poules__container__classement__listJoueurs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.poules__container__classement__listJoueurs__joueur {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f5f5;
+  border-radius: 8px;
+  padding: 4px 16px 4px 4px;
+  align-items: center;
+}
+.poules__container__classement__listJoueurs__joueur p {
+  margin: 0;
+}
+.poules__container__classement__listJoueurs__joueur div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.poules__container__classement__listJoueurs__joueur img {
+  width: 36px;
+  height: 36px;
+}
+.poules__container__classement__listJoueurs__joueur .joueur__ptsDecklist {
+  display: flex;
+  gap: 64px;
+}
+.poules__container__classement__listJoueurs__joueur .joueur__ptsDecklist p {
+  width: 14px;
+}
+.poules__container__classement__listJoueurs__joueur .joueur__ptsDecklist a {
+  width: 24px;
+  height: 24px;
+  margin-left: 3px;
+}
+.poules__container__classement__listJoueurs__joueur .joueur__ptsDecklist a img {
+  width: 100%;
+  height: 100%;
+}
+
+.poules__container__matchs {
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+  display: none;
+}
+
+/* SECTION WINRATE */
+.heros {
+  display: flex;
+}
+
+.heros__top {
+  min-width: 198px;
+  height: 98px;
+}
+
+.heros__top p {
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
