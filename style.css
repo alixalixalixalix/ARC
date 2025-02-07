@@ -14,6 +14,11 @@ body {
   margin: auto;
   width: 90%;
 }
+@media (max-width: 600px) {
+  .marginApp {
+    width: 100%;
+  }
+}
 
 header {
   width: 100%;
@@ -23,6 +28,11 @@ header {
 }
 header img {
   width: 100%;
+}
+@media (max-width: 600px) {
+  header img {
+    width: 300%;
+  }
 }
 header select {
   max-width: 1440px;
@@ -183,6 +193,8 @@ nav ul li a {
 
 .poules__container__matchs {
   display: none;
+  flex-wrap: wrap;
+  gap: 4px;
   font-size: 14px;
   margin-top: 12px;
 }
@@ -195,6 +207,7 @@ nav ul li a {
 }
 .poules__container__matchs__versus .vs {
   font-weight: 400;
+  margin: 0;
 }
 .poules__container__matchs__versus__joueur {
   padding: 4px 8px 4px 4px;

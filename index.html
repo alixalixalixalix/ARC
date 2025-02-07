@@ -9,7 +9,8 @@
   </head>
   <body>
     <header>
-      <img src="assets/top.png" />
+      <img class="header__img__desktop" src="assets/top.png" />
+      <img class="header__img__mobile" src="assets/top.png" />
       <select name="saison" id="saison-select">
         <option value="s3">Saison 3 (fév. 2025)</option>
         <option value="s2" selected>Saison 2 (jan. 2025)</option>
@@ -27,6 +28,7 @@
     </nav>
     <section id="sectionPoules">
       <div id="listeArticles" class="marginApp">
+        <!--
         <article>
           <p>Groupe 1</p>
           <div class="poules__container">
@@ -107,6 +109,7 @@
             </div>
 
           </div>
+          
         </article>
 
         <article>
@@ -170,6 +173,7 @@
             </div>
           </div>
         </article>
+        -->
       </div>
     </section>
 
@@ -210,7 +214,7 @@
 
     <section id="sectionCartes"></section>
 
-    <script type="module" src="script.js"></script>
+    <script type="module" src="script.js" defer></script>
  
   </body>
 </html>
