@@ -1,0 +1,46 @@
+[
+  {
+    "factions": [
+      {
+        "nom": "axiom",
+        "color": "",
+        "top": "",
+        "nbJoueurs": "// récupérer les infos des héros ?",
+        "winrate": "// Calcul à partir des données dessous",
+        "nbMatchs": "// récupérer les infos des héros ?",
+        "nbWin": "// récupérer les infos des héros ?"
+      },
+      {
+        "nom": "lyra",
+        "color": "",
+        "top": "",
+        "nbJoueurs": "",
+        "winrate": "",
+        "nbMatchs": "",
+        "nbWin": ""
+      }
+    ]
+  },
+  {
+    "heros": [
+      {
+        "nom": "Sierra",
+        "color": "#973A18",
+        "top": "",
+        "nbJoueurs": "1",
+        "winrate": "// Calcul à partir des données dessous",
+        "nbMatchs": "// récupérer les infos des héros ?",
+        "nbWin": "// récupérer les infos des héros ?"
+      },
+      {
+        "nom": "Nevenka",
+        "color": "#E12965",
+        "top": "",
+        "nbJoueurs": "1",
+        "winrate": "// Calcul à partir des données dessous",
+        "nbMatchs": "",
+        "nbWin": ""
+      }
+    ]
+  }
+]

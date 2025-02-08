@@ -7,30 +7,33 @@ li.forEach((lii) => {
   });
 });
 
-/*
-const linkPoules = document.getElementById("linkPoules");
-const linkFinale = document.getElementById("linkFinale");
-const linkWinrate = document.getElementById("linkWinrate");
-const linkCartes = document.getElementById("linkCartes");
-const sectionPoules = document.getElementById("sectionPoules");
-const sectionFinale = document.getElementById("sectionFinale");
-const sectionWinrate = document.getElementById("sectionWinrate");
-const sectionCartes = document.getElementById("sectionCartes");
+// Suppr de marginApp sur listeArticles
+const listeArticles = document.getElementById("listeArticles")
+if (window.innerWidth < 600) {
+  listeArticles.classList.remove("marginApp");
+}
 
+
+const linkPoules = document.getElementById("linkPoules");
+const linkWinrate = document.getElementById("linkWinrate");
+const sectionPoules = document.getElementById("sectionPoules");
+const sectionWinrate = document.getElementById("sectionWinrate");
+/*
+const linkFinale = document.getElementById("linkFinale");
+const linkCartes = document.getElementById("linkCartes");
+const sectionFinale = document.getElementById("sectionFinale");
+const sectionCartes = document.getElementById("sectionCartes");
+*/
 linkWinrate.addEventListener("click", function () {
   sectionPoules.style.display = "none";
-  sectionFinale.style.display = "none";
   sectionWinrate.style.display = "flex";
-  sectionCartes.style.display = "none";
 });
 
 linkPoules.addEventListener("click", function () {
   sectionPoules.style.display = "flex";
-  sectionFinale.style.display = "none";
   sectionWinrate.style.display = "none";
-  sectionCartes.style.display = "none";
 });
-*/
+
 
 const fetchData = async () => {
   try {

@@ -1,5 +1,5 @@
 $bg-color: #f8f5f5;
-$win-color: #E9B901;
+$win-color: #e9b901;
 
 * {
   font-family: "tiller", sans-serif;
@@ -15,9 +15,8 @@ body {
   max-width: 1440px;
   padding: 0 36px 0 36px;
   margin: auto;
-  width: 90%;
-  @media(max-width:600px){
-    width: 100%;
+  @media (max-width: 600px) {
+    padding: 0 24px 0 24px;
   }
 }
 
@@ -28,14 +27,23 @@ header {
   align-items: center;
   img {
     width: 100%;
-    @media(max-width:600px){
-      width: 300%;
+  }
+  .header__img__mobile {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    .header__img__mobile {
+      display: block;
     }
-
+    .header__img__desktop {
+      display: none;
+    }
+  }
+  div {
+    width: 100%;
   }
   select {
-    max-width: 1440px;
-    width: 90%;
+    width: 100%;
     margin: 24px 0 36px 0;
     font-size: 18px;
     padding: 8px 12px 8px 12px;
@@ -47,11 +55,16 @@ header {
 }
 
 nav {
+  overflow-x: scroll;
   ul {
+    width: 140%;
     display: flex;
     gap: 48px;
     padding: 0;
     margin: 0;
+    @media (max-width: 600px) {
+      gap: 24px;
+    }
     li {
       list-style-type: none;
       font-weight: 400;
@@ -60,6 +73,10 @@ nav {
       opacity: 0.3;
       padding-bottom: 12px;
       cursor: pointer;
+      @media (max-width: 600px) {
+        font-size: 14px;
+        padding-bottom: 8px;
+      }
       a {
         text-decoration: none;
         color: black;
@@ -69,7 +86,7 @@ nav {
 }
 
 .navActiv {
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
   opacity: 1;
 }
 
@@ -80,15 +97,11 @@ nav {
   height: 1000px;
   width: 100vw;
   padding-top: 36px;
+  background-color: $bg-color;
 }
 
 #sectionFinale {
   background: red;
-  display: none;
-}
-
-#sectionWinrate {
-  background: blueviolet;
   display: none;
 }
 
@@ -98,7 +111,8 @@ nav {
 }
 
 #sectionPoules {
-  background-color: $bg-color;
+  display: none;
+
   #listeArticles {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +125,15 @@ nav {
     & > p {
       margin: 0 0 12px 0;
       font-size: 18px;
+    }
+    @media (max-width: 1000px) {
+      width: 100%;
+      @media (max-width: 600px) {
+        & > p {
+          font-size: 14px;
+          margin-left: 24px;
+        }
+      }
     }
   }
 }
@@ -133,6 +156,10 @@ nav {
         background-color: $bg-color;
       }
     }
+  }
+  @media (max-width: 600px) {
+    padding: 16px;
+    border-radius: 0px;
   }
 }
 
@@ -196,10 +223,10 @@ nav {
 }
 
 .poules__container__matchs {
-  display: none; // à repasser en none
+  display: none;
   flex-wrap: wrap;
   gap: 4px;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 12px;
   &__versus {
     width: 100%;
@@ -209,18 +236,18 @@ nav {
     gap: 4px;
     .vs {
       font-weight: 400;
-      margin:0;
+      margin: 0;
     }
     &__joueur {
       padding: 4px 8px 4px 4px;
       border-radius: 8px;
-      display:flex;
+      display: flex;
       align-items: center;
       justify-content: space-between;
       background-color: $bg-color;
       width: 100%;
       & > p {
-        margin:0;
+        margin: 0;
         color: $win-color;
       }
       div {
@@ -230,27 +257,97 @@ nav {
         img {
           width: 36px;
           height: 36px;
+          @media (max-width: 600px) {
+            width: 24px;
+            height: 24px;
+          }
         }
         p {
-          margin:0;
+          margin: 0;
         }
       }
     }
-   
+  }
+  @media (max-width: 600px) {
+    font-size: 14px;
+    img {
+      width: 24px;
+    }
   }
 }
 
 /* SECTION WINRATE */
 
-.heros {
+.winrate__list {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
   display: flex;
-}
-
-.heros__top {
-  min-width: 198px;
-  height: 98px;
-}
-
-.heros__top p {
-  height: 100%;
+  gap: 24px;
+  &__card {
+    width: 198px;
+    background-color: $bg-color;
+    font-size: 14px;
+    &__top {
+      background-image: url(assets/heros/large/l-nevenka.webp);
+      background-size: cover;
+      height: 98px;
+      display: flex;
+      justify-content: space-between;
+      padding: 16px;
+      border-radius: 8px 8px 0 0px;
+      & > p {
+        background: white;
+        height: 24px;
+        padding: 2px 6px 2px 6px;
+        border-radius: 8px;
+        margin: 0;
+      }
+      &__nb {
+        background: white;
+        border-radius: 8px;
+        height: 24px;
+        padding: 2px 6px 2px 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 54px;
+        img {
+          width: 21px;
+          height: 14px;
+        }
+      }
+    }
+    &__bot {
+      padding: 16px;
+      border-radius: 0 0 8px 8px;
+      p {
+        margin: 0;
+      }
+      .winTitre {
+        font-weight: 400;
+      }
+      .winPourcentage {
+        font-size: 48px;
+      }
+      &__vs {
+        display: flex;
+        gap: 4px;
+        &__stats {
+          background: white;
+          border-radius: 8px;
+          height: 24px;
+          padding: 2px 6px 2px 6px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 54px;
+          img {
+            width: 17px;
+            height: 14px;
+          }
+        }
+      }
+    }
+  }
 }

@@ -10,12 +10,14 @@
   <body>
     <header>
       <img class="header__img__desktop" src="assets/top.png" />
-      <img class="header__img__mobile" src="assets/top.png" />
-      <select name="saison" id="saison-select">
-        <option value="s3">Saison 3 (fév. 2025)</option>
-        <option value="s2" selected>Saison 2 (jan. 2025)</option>
-        <option value="s1">Saison 1 (déc. 2024)</option>
-      </select>
+      <img class="header__img__mobile" src="assets/top-mobile.png" />
+      <div class="marginApp">
+        <select name="saison" id="saison-select">
+          <option value="s3">Saison 3 (fév. 2025)</option>
+          <option value="s2" selected>Saison 2 (jan. 2025)</option>
+          <option value="s1">Saison 1 (déc. 2024)</option>
+        </select>
+      </div>
     </header>
     <nav class="marginApp">
       <ul>
@@ -180,41 +182,61 @@
     <section id="sectionFinale"></section>
 
     <section id="sectionWinrate">
-      <!--
-      <div class="winrate__heros">
+      <div id="winrate" class="marginApp">
         <p>Winrate Héros</p>
-        <div class="winrate__heros__list">
-          <div class="heros">
-            <div class="heros__top">
+        <div class="winrate__list">
+          <article class="winrate__list__card">
+            <div class="winrate__list__card__top">
               <p>TOP 1</p>
-              <div class="heros__top__nb">
+              <div class="winrate__list__card__top__nb">
                 <p>6</p>
-                <img src="" alt="" />
+                <img src="assets/icon-nbjoueurs.png" alt="" />
               </div>
             </div>
-            <div class="heros__bot">
-              <p>Winrate</p>
-              <p>62%</p>
-              <div class="heros__bot__vs">
-                <div class="heros__bot__vs__nb">
+            <div class="winrate__list__card__bot">
+              <p class="winTitre">Winrate</p>
+              <p class="winPourcentage">62%</p>
+              <div class="winrate__list__card__bot__vs">
+                <div class="winrate__list__card__bot__vs__stats">
                   <p>29</p>
-                  <img src="" alt="" />
+                  <img src="assets/icon-vs.png" alt="" />
                 </div>
-                <div class="heros__bot__vs__win">
+                <div class="winrate__list__card__bot__vs__stats">
                   <p>18</p>
-                  <img src="" alt="" />
+                  <img src="assets/icon-win.png" alt="" />
                 </div>
               </div>
             </div>
-          </div>
+          </article>
+          <article class="winrate__list__card">
+            <div class="winrate__list__card__top">
+              <p>TOP 1</p>
+              <div class="winrate__list__card__top__nb">
+                <p>6</p>
+                <img src="assets/icon-nbjoueurs.png" alt="" />
+              </div>
+            </div>
+            <div class="winrate__list__card__bot">
+              <p class="winTitre">Winrate</p>
+              <p class="winPourcentage">62%</p>
+              <div class="winrate__list__card__bot__vs">
+                <div class="winrate__list__card__bot__vs__stats">
+                  <p>29</p>
+                  <img src="assets/icon-vs.png" alt="" />
+                </div>
+                <div class="winrate__list__card__bot__vs__stats">
+                  <p>18</p>
+                  <img src="assets/icon-win.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
-      -->
     </section>
 
     <section id="sectionCartes"></section>
 
     <script type="module" src="script.js" defer></script>
- 
   </body>
 </html>
