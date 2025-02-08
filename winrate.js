@@ -7,10 +7,8 @@ const fetchData = async () => {
       const winrateList = document.querySelector(".winrate__list");
       winrateList.innerHTML = "";
 
-      console.log(dataWinrate.heros.length)
-
       /*————— GÉNÉRATOR POULE —————*/
-      for (let i = 0; i < dataWinrate.length; i++) {
+      for (let i = 0; i < dataWinrate[1].heros.length; i++) {
         // <article> card
         const card = document.createElement("article");
         card.classList.add("winrate__list__card");
@@ -19,14 +17,18 @@ const fetchData = async () => {
         // <div> card top
         const cardTop = document.createElement("div");
         cardTop.classList.add("winrate__list__card__top");
+        cardTop.style.backgroundImage = "url(" + dataWinrate[1].heros[i].img + ")"
         card.appendChild(cardTop);
         // <div> grade
         const cardTopGrade = document.createElement("div");
         cardTopGrade.classList.add("winrate__list__card__top__grade");
         cardTop.appendChild(cardTopGrade);
+        if(dataWinrate[1].heros[i].top === ""){
+            cardTopGrade.style.opacity = "0"
+        }
         // <p> top 1
         const gradeHeros = document.createElement("p");
-        gradeHeros.innerText = "TOP 1"
+        gradeHeros.innerText = "TOP " + dataWinrate[1].heros[i].top;
         cardTopGrade.appendChild(gradeHeros);
         // <div> nombre
         const cardTopNombre = document.createElement("div");
@@ -34,7 +36,7 @@ const fetchData = async () => {
         cardTop.appendChild(cardTopNombre);
         // <p> nombre
         const nombreHerosP = document.createElement("p");
-        nombreHerosP.innerText = "11"
+        nombreHerosP.innerText = dataWinrate[1].heros[i].nbJoueurs
         cardTopNombre.appendChild(nombreHerosP);
         // <img> nombre
         const nombreHerosImg = document.createElement("img");
@@ -53,7 +55,7 @@ const fetchData = async () => {
         // <p> winPourcentage
         const winPourcentage = document.createElement("p");
         winPourcentage.classList.add("winPourcentage");
-        winPourcentage.innerText = "62%"
+        winPourcentage.innerText = Math.round((dataWinrate[1].heros[i].nbWin / dataWinrate[1].heros[i].nbMatchs) *100) + "%";
         cardBot.appendChild(winPourcentage);
 
         // <div> stats vs win
@@ -66,7 +68,7 @@ const fetchData = async () => {
         statsVsWin.appendChild(nbVs);
         // <p> nombre vs
         const nbVsP = document.createElement("p");
-        nbVsP.innerText = "53"
+        nbVsP.innerText = dataWinrate[1].heros[i].nbMatchs
         nbVs.appendChild(nbVsP);
         // <img> nombre vs
         const nbVsImg = document.createElement("img");
@@ -78,7 +80,7 @@ const fetchData = async () => {
         statsVsWin.appendChild(nbWin);
         // <p> nombre win
         const nbWinP = document.createElement("p");
-        nbWinP.innerText = "21"
+        nbWinP.innerText = dataWinrate[1].heros[i].nbWin;
         nbWin.appendChild(nbWinP);
         // <img> nombre win
         const nbWinImg = document.createElement("img");

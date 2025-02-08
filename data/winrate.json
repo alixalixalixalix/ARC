@@ -34,12 +34,21 @@
     "heros": [
       {
         "nom": "Sierra",
+        "img": "assets/heros/large/a-sierra.png",
         "color": "#973A18",
         "top": "",
         "nbJoueurs": "1",
-        "winrate": "// Calcul à partir des données dessous",
-        "nbMatchs": "// récupérer les infos des héros ?",
-        "nbWin": "// récupérer les infos des héros ?"
+        "nbMatchs": "4",
+        "nbWin": "0"
+      },
+      {
+        "nom": "Nevenka",
+        "img": "assets/heros/large/l-nevenka.png",
+        "color": "#973A18",
+        "top": "",
+        "nbJoueurs": "1",
+        "nbMatchs": "4",
+        "nbWin": "2"
       }
     ]
   }
