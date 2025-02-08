@@ -297,23 +297,7 @@ nav ul li a {
   background-color: #f8f5f5;
   font-size: 14px;
 }
-.winrate__list__card__top {
-  background-image: url(assets/heros/large/l-nevenka.webp);
-  background-size: cover;
-  height: 98px;
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-  border-radius: 8px 8px 0 0px;
-}
-.winrate__list__card__top > p {
-  background: white;
-  height: 24px;
-  padding: 2px 6px 2px 6px;
-  border-radius: 8px;
-  margin: 0;
-}
-.winrate__list__card__top__nb {
+.winrate__list__card__icon {
   background: white;
   border-radius: 8px;
   height: 24px;
@@ -323,9 +307,30 @@ nav ul li a {
   justify-content: space-between;
   width: 54px;
 }
-.winrate__list__card__top__nb img {
+.winrate__list__card__icon img {
   width: 21px;
   height: 14px;
+}
+.winrate__list__card__top {
+  background-image: url(assets/heros/large/l-nevenka.webp);
+  background-size: cover;
+  background-position: center;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 8px 8px 0 0px;
+}
+.winrate__list__card__top__grade {
+  background: white;
+  height: 24px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.winrate__list__card__top__grade p {
+  margin: 0;
 }
 .winrate__list__card__bot {
   padding: 16px;
@@ -343,18 +348,4 @@ nav ul li a {
 .winrate__list__card__bot__vs {
   display: flex;
   gap: 4px;
-}
-.winrate__list__card__bot__vs__stats {
-  background: white;
-  border-radius: 8px;
-  height: 24px;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 54px;
-}
-.winrate__list__card__bot__vs__stats img {
-  width: 17px;
-  height: 14px;
 }/*# sourceMappingURL=style.css.map */
