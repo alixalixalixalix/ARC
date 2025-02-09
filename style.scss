@@ -1,4 +1,4 @@
-$bg-color: #f8f5f5;
+$bg-color: #F4EFEF;
 $win-color: #e9b901;
 
 * {
@@ -116,10 +116,10 @@ nav {
   #listeArticles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 36px 24px;
   }
   article {
+    flex-grow: 1;
     width: 48%;
     gap: 24px;
     & > p {
@@ -283,11 +283,14 @@ nav {
   border-radius: 8px;
   padding: 24px;
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   &__card {
     width: 198px;
     background-color: $bg-color;
     font-size: 14px;
+    border-radius: 8px;
+    flex-grow: 1;
     &__icon {
       background: white;
       border-radius: 8px;
@@ -296,7 +299,7 @@ nav {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 54px;
+      width: 40px;
       img {
         width: 21px;
         height: 14px;

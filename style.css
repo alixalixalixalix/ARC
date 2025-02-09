@@ -49,7 +49,7 @@ header select {
   padding: 8px 12px 8px 12px;
   border: 0;
   border-radius: 8px;
-  background-color: #f8f5f5;
+  background-color: #F4EFEF;
   font-weight: 400;
 }
 
@@ -100,7 +100,7 @@ nav ul li a {
   height: 1000px;
   width: 100vw;
   padding-top: 36px;
-  background-color: #f8f5f5;
+  background-color: #F4EFEF;
 }
 
 #sectionFinale {
@@ -119,10 +119,10 @@ nav ul li a {
 #sectionPoules #listeArticles {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 36px 24px;
 }
 #sectionPoules article {
+  flex-grow: 1;
   width: 48%;
   gap: 24px;
 }
@@ -160,7 +160,7 @@ nav ul li a {
   cursor: pointer;
 }
 .poules__container__onglets button.btnActif {
-  background-color: #f8f5f5;
+  background-color: #F4EFEF;
 }
 @media (max-width: 600px) {
   .poules__container {
@@ -192,7 +192,7 @@ nav ul li a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #f8f5f5;
+  background-color: #F4EFEF;
   border-radius: 8px;
   padding: 4px 16px 4px 4px;
   align-items: center;
@@ -250,7 +250,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f8f5f5;
+  background-color: #F4EFEF;
   width: 100%;
 }
 .poules__container__matchs__versus__joueur > p {
@@ -290,12 +290,15 @@ nav ul li a {
   border-radius: 8px;
   padding: 24px;
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .winrate__list__card {
   width: 198px;
-  background-color: #f8f5f5;
+  background-color: #F4EFEF;
   font-size: 14px;
+  border-radius: 8px;
+  flex-grow: 1;
 }
 .winrate__list__card__icon {
   background: white;
@@ -305,7 +308,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 54px;
+  width: 40px;
 }
 .winrate__list__card__icon img {
   width: 21px;

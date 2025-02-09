@@ -35,20 +35,146 @@
       {
         "nom": "Sierra",
         "img": "assets/heros/large/a-sierra.png",
-        "color": "#973A18",
-        "top": "",
-        "nbJoueurs": "1",
-        "nbMatchs": "4",
-        "nbWin": "0"
+        "top": "40",
+        "nbJoueurs": 1,
+        "nbMatchs": 4,
+        "nbWin": 0
+      },
+      {
+        "nom": "Subhash",
+        "img": "assets/heros/large/a-subhash.png",
+        "top": "40",
+        "nbJoueurs": 1,
+        "nbMatchs": 4,
+        "nbWin": 1
+      },
+      {
+        "nom": "Treyst",
+        "img": "assets/heros/large/a-treyst.png",
+        "top": "8",
+        "nbJoueurs": 4,
+        "nbMatchs": 19,
+        "nbWin": 13
+      },
+      {
+        "nom": "Kojo",
+        "img": "assets/heros/large/b-kojo.png",
+        "top": "16",
+        "nbJoueurs": 2,
+        "nbMatchs": 9,
+        "nbWin": 4
+      },
+      {
+        "nom": "Atsadi",
+        "img": "assets/heros/large/b-atsadi.png",
+        "top": "1000",
+        "nbJoueurs": 0,
+        "nbMatchs": 0,
+        "nbWin": 0
+      },
+      {
+        "nom": "Basira",
+        "img": "assets/heros/large/b-basira.png",
+        "top": "8",
+        "nbJoueurs": 1,
+        "nbMatchs": 6,
+        "nbWin": 4
       },
       {
         "nom": "Nevenka",
         "img": "assets/heros/large/l-nevenka.png",
-        "color": "#973A18",
-        "top": "",
-        "nbJoueurs": "1",
-        "nbMatchs": "4",
-        "nbWin": "2"
+        "top": "40",
+        "nbJoueurs": 1,
+        "nbMatchs": 4,
+        "nbWin": 2
+      },
+      {
+        "nom": "Auraq",
+        "img": "assets/heros/large/l-auraq.png",
+        "top": "1000",
+        "nbJoueurs": 0,
+        "nbMatchs": 0,
+        "nbWin": 0
+      },
+      {
+        "nom": "Fen",
+        "img": "assets/heros/large/l-fen.png",
+        "top": "4",
+        "nbJoueurs": 6,
+        "nbMatchs": 28,
+        "nbWin": 14
+      },
+      {
+        "nom": "Teija",
+        "img": "assets/heros/large/m-teija.png",
+        "top": "16",
+        "nbJoueurs": 5,
+        "nbMatchs": 21,
+        "nbWin": 10
+      },
+      {
+        "nom": "Arjun",
+        "img": "assets/heros/large/m-arjun.png",
+        "top": "40",
+        "nbJoueurs": 1,
+        "nbMatchs": 4,
+        "nbWin": 0
+      },
+      {
+        "nom": "Rin",
+        "img": "assets/heros/large/m-rin.png",
+        "top": "40",
+        "nbJoueurs": 1,
+        "nbMatchs": 4,
+        "nbWin": 2
+      },
+      {
+        "nom": "Sigismar",
+        "img": "assets/heros/large/o-sigismar.png",
+        "top": "8",
+        "nbJoueurs": 3,
+        "nbMatchs": 14,
+        "nbWin": 7
+      },
+      {
+        "nom": "Gulrang",
+        "img": "assets/heros/large/o-gulrang.png",
+        "top": "16",
+        "nbJoueurs": 1,
+        "nbMatchs": 5,
+        "nbWin": 2
+      },
+      {
+        "nom": "Waru",
+        "img": "assets/heros/large/o-waru.png",
+        "top": "4",
+        "nbJoueurs": 3,
+        "nbMatchs": 15,
+        "nbWin": 8
+      },
+      {
+        "nom": "Akesha",
+        "img": "assets/heros/large/y-akesha.png",
+        "top": "40",
+        "nbJoueurs": 1,
+        "nbMatchs": 4,
+        "nbWin": 1
+      },
+      {
+        "nom": "Lindiwe",
+        "img": "assets/heros/large/y-lindiwe.png",
+        "top": "2",
+        "nbJoueurs": 3,
+        "nbMatchs": 16,
+        "nbWin": 8
+      },
+      {
+        "nom": "Afanas",
+        "img": "assets/heros/large/y-afanas.png",
+        "top": "1",
+        "nbJoueurs": 6,
+        "nbMatchs": 29,
+        "nbWin": 18
       }
     ]
   }
