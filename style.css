@@ -39,18 +39,15 @@ header .header__img__mobile {
     display: none;
   }
 }
-header div {
-  width: 100%;
-}
 header select {
-  width: 100%;
   margin: 24px 0 36px 0;
   font-size: 18px;
   padding: 8px 12px 8px 12px;
   border: 0;
   border-radius: 8px;
-  background-color: #F4EFEF;
+  background-color: #f4efef;
   font-weight: 400;
+  width: 250px;
 }
 
 nav {
@@ -77,6 +74,9 @@ nav ul li {
   padding-bottom: 12px;
   cursor: pointer;
 }
+nav ul li #linkFinale {
+  pointer-events: none !important;
+}
 @media (max-width: 600px) {
   nav ul li {
     font-size: 14px;
@@ -97,15 +97,16 @@ nav ul li a {
 #sectionFinale,
 #sectionWinrate,
 #sectionCartes {
-  height: 1000px;
+  height: 100%;
   width: 100vw;
   padding-top: 36px;
-  background-color: #F4EFEF;
+  background-color: #f4efef;
+  padding-bottom: 72px;
 }
 
 #sectionFinale {
-  background: red;
   display: none;
+  height: 100vh;
 }
 
 #sectionCartes {
@@ -113,9 +114,6 @@ nav ul li a {
   display: none;
 }
 
-#sectionPoules {
-  display: none;
-}
 #sectionPoules #listeArticles {
   display: flex;
   flex-wrap: wrap;
@@ -137,8 +135,7 @@ nav ul li a {
 }
 @media (max-width: 1000px) and (max-width: 600px) {
   #sectionPoules article > p {
-    font-size: 14px;
-    margin-left: 24px;
+    margin-left: 16px;
   }
 }
 
@@ -160,7 +157,7 @@ nav ul li a {
   cursor: pointer;
 }
 .poules__container__onglets button.btnActif {
-  background-color: #F4EFEF;
+  background-color: #f4efef;
 }
 @media (max-width: 600px) {
   .poules__container {
@@ -192,7 +189,7 @@ nav ul li a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #F4EFEF;
+  background-color: #f4efef;
   border-radius: 8px;
   padding: 4px 16px 4px 4px;
   align-items: center;
@@ -250,7 +247,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #F4EFEF;
+  background-color: #f4efef;
   width: 100%;
 }
 .poules__container__matchs__versus__joueur > p {
@@ -285,6 +282,20 @@ nav ul li a {
 }
 
 /* SECTION WINRATE */
+#sectionWinrate {
+  display: none;
+}
+
+#winrate > p {
+  font-size: 18px;
+  margin: 0 0 12px 0;
+}
+@media (max-width: 600px) {
+  #winrate > p {
+    margin-left: 16px;
+  }
+}
+
 .winrate__list {
   background: white;
   border-radius: 8px;
@@ -292,13 +303,26 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-bottom: 36px;
+}
+@media (max-width: 600px) {
+  .winrate__list {
+    border-radius: 0px;
+    padding: 16px;
+    gap: 16px;
+  }
 }
 .winrate__list__card {
   width: 198px;
-  background-color: #F4EFEF;
+  background-color: #f4efef;
   font-size: 14px;
   border-radius: 8px;
-  flex-grow: 1;
+  flex: auto;
+}
+@media (max-width: 600px) {
+  .winrate__list__card {
+    width: 120px;
+  }
 }
 .winrate__list__card__icon {
   background: white;
@@ -348,7 +372,31 @@ nav ul li a {
 .winrate__list__card__bot .winPourcentage {
   font-size: 48px;
 }
+@media (max-width: 600px) {
+  .winrate__list__card__bot .winPourcentage {
+    font-size: 36px;
+  }
+}
 .winrate__list__card__bot__vs {
   display: flex;
   gap: 4px;
+}
+
+.winrateFactions__list {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.winrateFactions__list > p {
+  margin-top: 24px;
+}
+@media (max-width: 600px) {
+  .winrateFactions__list {
+    border-radius: 0px;
+    padding: 16px;
+    gap: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */

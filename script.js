@@ -8,32 +8,39 @@ li.forEach((lii) => {
 });
 
 // Suppr de marginApp sur listeArticles
-const listeArticles = document.getElementById("listeArticles")
+const listeArticles = document.getElementById("listeArticles");
 if (window.innerWidth < 600) {
   listeArticles.classList.remove("marginApp");
 }
 
-
 const linkPoules = document.getElementById("linkPoules");
+const linkFinale = document.getElementById("linkFinale");
 const linkWinrate = document.getElementById("linkWinrate");
 const sectionPoules = document.getElementById("sectionPoules");
+const sectionFinale = document.getElementById("sectionFinale");
 const sectionWinrate = document.getElementById("sectionWinrate");
 /*
-const linkFinale = document.getElementById("linkFinale");
 const linkCartes = document.getElementById("linkCartes");
-const sectionFinale = document.getElementById("sectionFinale");
 const sectionCartes = document.getElementById("sectionCartes");
 */
-linkWinrate.addEventListener("click", function () {
-  sectionPoules.style.display = "none";
-  sectionWinrate.style.display = "flex";
-});
 
 linkPoules.addEventListener("click", function () {
   sectionPoules.style.display = "flex";
+  sectionFinale.style.display = "none";
   sectionWinrate.style.display = "none";
 });
 
+linkFinale.addEventListener("click", function () {
+  sectionPoules.style.display = "none";
+  sectionFinale.style.display = "flex";
+  sectionWinrate.style.display = "none";
+});
+
+linkWinrate.addEventListener("click", function () {
+  sectionPoules.style.display = "none";
+  sectionFinale.style.display = "none";
+  sectionWinrate.style.display = "flex";
+});
 
 const fetchData = async () => {
   try {
@@ -138,7 +145,7 @@ const fetchData = async () => {
           const joueurNom = document.createElement("p");
           joueurNom.innerText = dataPoules[i].joueurs[j].nom;
           imgNom.appendChild(joueurNom);
-          // <p> container points decklists
+          // <div> container points decklists
           const joueurPointsDecklists = document.createElement("div");
           poulesContainerClassementListJoueursJoueur.appendChild(
             joueurPointsDecklists
@@ -146,14 +153,15 @@ const fetchData = async () => {
           joueurPointsDecklists.classList.add("joueur__ptsDecklist");
           // <p> joueur points
           const joueurPoints = document.createElement("p");
-          joueurPoints.innerText = dataPoules[i].joueurs[j].points
+          joueurPoints.innerText = dataPoules[i].joueurs[j].points;
           joueurPointsDecklists.appendChild(joueurPoints);
+
           // <a> joueur decklist
           const joueurDecklistLink = document.createElement("a");
           joueurDecklistLink.href = dataPoules[i].joueurs[j].decklist;
           joueurDecklistLink.setAttribute("target", "_blank");
           joueurPointsDecklists.appendChild(joueurDecklistLink);
-          // <img> icon decklist          
+          // <img> icon decklist
           const joueurDecklistImg = document.createElement("img");
           joueurDecklistImg.src = "assets/icon-decklist.png";
           joueurDecklistLink.appendChild(joueurDecklistImg);
@@ -265,6 +273,7 @@ const fetchData = async () => {
       }
     }
 
+
     generatorPoules(dataPoules);
   } catch (error) {
     console.error("Erreur lors de la récupération des données :", error);
@@ -288,14 +297,26 @@ for (let z = 0; dataPoules[i].joueurs[j].nom != dataPoules[i].matchs[m].joueur1;
 // dataPoules[i].joueurs[j].nom = tous les "nom" de chaque objets joueurs
 // dataPoules[i].matchs[m].joueur1 = tous les "joueur1" de chaque objets matchs
 
-
 /*
-Je veux compter toutes les fois où chaque joueur est considéré vainqueur
+  Je veux compter le nombre de fois qu'un joueur est déclaré vainqueur (dans matchs)
+  et l'afficher dans les points du classement
+  
+  const joueurPoints = document.createElement("p");
+  joueurPoints.innerText = dataPoules[i].joueurs[j].points
+  joueurPointsDecklists.appendChild(joueurPoints);
+
+
 for (let x = 0; x < dataPoules[i].joueurs.length; x++){
   let points = 0
   if(dataPoules[i].matchs[m].vainqueur === dataPoules[i].joueurs[x]){
   points += 1
-  joueurPoints[x].innerText = dataPoules[i].points[x]
+  joueurPoints[x].innerText = points
   }
 }
+
+for (let x = 0; dataPoules[i].matchs.length ; x++){
+  let points = 0
+  if(dataPoules[i].matchs[x].vainqueur === dataPoules[i].joueurs.nom)
+}
+
 */

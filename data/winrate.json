@@ -3,30 +3,33 @@
     "factions": [
       {
         "nom": "axiom",
-        "color": "",
-        "top": "",
-        "nbJoueurs": "// récupérer les infos des héros ?",
-        "winrate": "// Calcul à partir des données dessous",
-        "nbMatchs": "// récupérer les infos des héros ?",
-        "nbWin": "// récupérer les infos des héros ?"
+        "img": "assets/banniere-axiom.png",
+        "top": "8"
+      },
+      {
+        "nom": "bravos",
+        "img": "assets/banniere-bravos.png",
+        "top": "8"
       },
       {
         "nom": "lyra",
-        "color": "",
-        "top": "",
-        "nbJoueurs": "",
-        "winrate": "",
-        "nbMatchs": "",
-        "nbWin": ""
+        "img": "assets/banniere-lyra.png",
+        "top": "4"
       },
       {
         "nom": "muna",
-        "color": "",
-        "top": "",
-        "nbJoueurs": "",
-        "winrate": "",
-        "nbMatchs": "",
-        "nbWin": ""
+        "img": "assets/banniere-muna.png",
+        "top": "16"
+      },
+      {
+        "nom": "ordis",
+        "img": "assets/banniere-ordis.png",
+        "top": "4"
+      },
+      {
+        "nom": "yzmir",
+        "img": "assets/banniere-yzmir.png",
+        "top": "1"
       }
     ]
   },
@@ -34,6 +37,7 @@
     "heros": [
       {
         "nom": "Sierra",
+        "faction": "axiom",
         "img": "assets/heros/large/a-sierra.png",
         "top": "40",
         "nbJoueurs": 1,
@@ -42,6 +46,7 @@
       },
       {
         "nom": "Subhash",
+        "faction": "axiom",
         "img": "assets/heros/large/a-subhash.png",
         "top": "40",
         "nbJoueurs": 1,
@@ -50,6 +55,7 @@
       },
       {
         "nom": "Treyst",
+        "faction": "axiom",
         "img": "assets/heros/large/a-treyst.png",
         "top": "8",
         "nbJoueurs": 4,
@@ -58,6 +64,7 @@
       },
       {
         "nom": "Kojo",
+        "faction": "bravos",
         "img": "assets/heros/large/b-kojo.png",
         "top": "16",
         "nbJoueurs": 2,
@@ -66,6 +73,7 @@
       },
       {
         "nom": "Atsadi",
+        "faction": "bravos",
         "img": "assets/heros/large/b-atsadi.png",
         "top": "1000",
         "nbJoueurs": 0,
@@ -74,6 +82,7 @@
       },
       {
         "nom": "Basira",
+        "faction": "bravos",
         "img": "assets/heros/large/b-basira.png",
         "top": "8",
         "nbJoueurs": 1,
@@ -82,6 +91,7 @@
       },
       {
         "nom": "Nevenka",
+        "faction": "lyra",
         "img": "assets/heros/large/l-nevenka.png",
         "top": "40",
         "nbJoueurs": 1,
@@ -90,6 +100,7 @@
       },
       {
         "nom": "Auraq",
+        "faction": "lyra",
         "img": "assets/heros/large/l-auraq.png",
         "top": "1000",
         "nbJoueurs": 0,
@@ -98,6 +109,7 @@
       },
       {
         "nom": "Fen",
+        "faction": "lyra",
         "img": "assets/heros/large/l-fen.png",
         "top": "4",
         "nbJoueurs": 6,
@@ -106,6 +118,7 @@
       },
       {
         "nom": "Teija",
+        "faction": "muna",
         "img": "assets/heros/large/m-teija.png",
         "top": "16",
         "nbJoueurs": 5,
@@ -114,6 +127,7 @@
       },
       {
         "nom": "Arjun",
+        "faction": "muna",
         "img": "assets/heros/large/m-arjun.png",
         "top": "40",
         "nbJoueurs": 1,
@@ -122,6 +136,7 @@
       },
       {
         "nom": "Rin",
+        "faction": "muna",
         "img": "assets/heros/large/m-rin.png",
         "top": "40",
         "nbJoueurs": 1,
@@ -130,6 +145,7 @@
       },
       {
         "nom": "Sigismar",
+        "faction": "ordis",
         "img": "assets/heros/large/o-sigismar.png",
         "top": "8",
         "nbJoueurs": 3,
@@ -138,6 +154,7 @@
       },
       {
         "nom": "Gulrang",
+        "faction": "ordis",
         "img": "assets/heros/large/o-gulrang.png",
         "top": "16",
         "nbJoueurs": 1,
@@ -146,6 +163,7 @@
       },
       {
         "nom": "Waru",
+        "faction": "ordis",
         "img": "assets/heros/large/o-waru.png",
         "top": "4",
         "nbJoueurs": 3,
@@ -154,6 +172,7 @@
       },
       {
         "nom": "Akesha",
+        "faction": "yzmir",
         "img": "assets/heros/large/y-akesha.png",
         "top": "40",
         "nbJoueurs": 1,
@@ -162,6 +181,7 @@
       },
       {
         "nom": "Lindiwe",
+        "faction": "yzmir",
         "img": "assets/heros/large/y-lindiwe.png",
         "top": "2",
         "nbJoueurs": 3,
@@ -170,6 +190,7 @@
       },
       {
         "nom": "Afanas",
+        "faction": "yzmir",
         "img": "assets/heros/large/y-afanas.png",
         "top": "1",
         "nbJoueurs": 6,

@@ -1,4 +1,4 @@
-$bg-color: #F4EFEF;
+$bg-color: #f4efef;
 $win-color: #e9b901;
 
 * {
@@ -39,11 +39,7 @@ header {
       display: none;
     }
   }
-  div {
-    width: 100%;
-  }
   select {
-    width: 100%;
     margin: 24px 0 36px 0;
     font-size: 18px;
     padding: 8px 12px 8px 12px;
@@ -51,6 +47,7 @@ header {
     border-radius: 8px;
     background-color: $bg-color;
     font-weight: 400;
+    width: 250px;
   }
 }
 
@@ -73,6 +70,9 @@ nav {
       opacity: 0.3;
       padding-bottom: 12px;
       cursor: pointer;
+      #linkFinale {
+        pointer-events: none !important;
+      }
       @media (max-width: 600px) {
         font-size: 14px;
         padding-bottom: 8px;
@@ -94,15 +94,16 @@ nav {
 #sectionFinale,
 #sectionWinrate,
 #sectionCartes {
-  height: 1000px;
+  height: 100%;
   width: 100vw;
   padding-top: 36px;
   background-color: $bg-color;
+  padding-bottom: 72px;
 }
 
 #sectionFinale {
-  background: red;
   display: none;
+  height: 100vh;
 }
 
 #sectionCartes {
@@ -111,8 +112,6 @@ nav {
 }
 
 #sectionPoules {
-  display: none;
-
   #listeArticles {
     display: flex;
     flex-wrap: wrap;
@@ -130,8 +129,7 @@ nav {
       width: 100%;
       @media (max-width: 600px) {
         & > p {
-          font-size: 14px;
-          margin-left: 24px;
+          margin-left: 16px;
         }
       }
     }
@@ -278,6 +276,18 @@ nav {
 
 /* SECTION WINRATE */
 
+#sectionWinrate {
+  display: none;
+}
+
+#winrate > p {
+  font-size: 18px;
+  margin: 0 0 12px 0;
+  @media (max-width: 600px) {
+    margin-left: 16px;
+  }
+}
+
 .winrate__list {
   background: white;
   border-radius: 8px;
@@ -285,12 +295,21 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-bottom: 36px;
+  @media (max-width: 600px) {
+    border-radius: 0px;
+    padding: 16px;
+    gap: 16px;
+  }
   &__card {
     width: 198px;
     background-color: $bg-color;
     font-size: 14px;
     border-radius: 8px;
-    flex-grow: 1;
+    flex: auto;
+    @media (max-width: 600px) {
+      width: 120px;
+    }
     &__icon {
       background: white;
       border-radius: 8px;
@@ -337,11 +356,31 @@ nav {
       }
       .winPourcentage {
         font-size: 48px;
+        @media (max-width: 600px) {
+          font-size: 36px;
+        }
       }
       &__vs {
         display: flex;
         gap: 4px;
       }
     }
+  }
+}
+
+.winrateFactions__list {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  & > p {
+    margin-top: 24px;
+  }
+  @media (max-width: 600px) {
+    border-radius: 0px;
+    padding: 16px;
+    gap: 16px;
   }
 }
