@@ -311,5 +311,300 @@
         "vainqueur": ""
       }
     ]
+  },
+  {
+    "idPoule": "4",
+    "joueurs": [
+      {
+        "idJoueur": "16",
+        "nom": "JacquesCeler",
+        "points": "4",
+        "heros": "Treysr",
+        "imgHeros": "assets/heros/small/a-treyst.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "17",
+        "nom": "Renable",
+        "points": "3",
+        "heros": "Treyst",
+        "imgHeros": "assets/heros/small/a-treyst.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "18",
+        "nom": "Folzoqua",
+        "points": "1",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "19",
+        "nom": "LeRoyaumeDuDé",
+        "points": "2",
+        "heros": "Lindiwe",
+        "imgHeros": "assets/heros/small/y-lindiwe.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "20",
+        "nom": "Loutre",
+        "points": "0",
+        "heros": "Arjun",
+        "imgHeros": "assets/heros/small/m-arjun.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "1",
+        "joueur1": "Djaack",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      },
+      {
+        "idMatch": "2",
+        "joueur1": "Keg",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      }
+    ]
+  },
+  {
+    "idPoule": "5",
+    "joueurs": [
+      {
+        "idJoueur": "21",
+        "nom": "EdgeSouls",
+        "points": "1",
+        "heros": "Sigismar",
+        "imgHeros": "assets/heros/small/o-sigismar.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "22",
+        "nom": "Légende",
+        "points": "2",
+        "heros": "Sigismar",
+        "imgHeros": "assets/heros/small/o-sigismar.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "23",
+        "nom": "ZazaLaRiboule",
+        "points": "2",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "24",
+        "nom": "McFlaïe",
+        "points": "3",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "25",
+        "nom": "Krazyk",
+        "points": "1",
+        "heros": "Waru",
+        "imgHeros": "assets/heros/small/o-waru.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "1",
+        "joueur1": "Djaack",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      },
+      {
+        "idMatch": "2",
+        "joueur1": "Keg",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      }
+    ]
+  },
+  {
+    "idPoule": "6",
+    "joueurs": [
+      {
+        "idJoueur": "26",
+        "nom": "Marbull",
+        "points": "2",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "27",
+        "nom": "GrankorSalade",
+        "points": "1",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "28",
+        "nom": "XAT",
+        "points": "3",
+        "heros": "Kojo",
+        "imgHeros": "assets/heros/small/b-kojo.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "29",
+        "nom": "Pikevchu",
+        "points": "2",
+        "heros": "Rin",
+        "imgHeros": "assets/heros/small/m-rin.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "30",
+        "nom": "CafardAgile",
+        "points": "2",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "1",
+        "joueur1": "Djaack",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      },
+      {
+        "idMatch": "2",
+        "joueur1": "Keg",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      }
+    ]
+  },
+  {
+    "idPoule": "7",
+    "joueurs": [
+      {
+        "idJoueur": "31",
+        "nom": "Zupaw",
+        "points": "2",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "32",
+        "nom": "Stentor",
+        "points": "2",
+        "heros": "Sigismar",
+        "imgHeros": "assets/heros/small/o-sigismar.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "33",
+        "nom": "Kalhamn",
+        "points": "1",
+        "heros": "Kojo",
+        "imgHeros": "assets/heros/small/b-kojo.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "34",
+        "nom": "Y04nn",
+        "points": "2",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "35",
+        "nom": "Nahmaa",
+        "points": "3",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "1",
+        "joueur1": "Djaack",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      },
+      {
+        "idMatch": "2",
+        "joueur1": "Keg",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      }
+    ]
+  },
+  {
+    "idPoule": "8",
+    "joueurs": [
+      {
+        "idJoueur": "36",
+        "nom": "Raloufifa",
+        "points": "2",
+        "heros": "Gulrang",
+        "imgHeros": "assets/heros/small/o-gulrang.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "37",
+        "nom": "Delula",
+        "points": "3",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "38",
+        "nom": "Insoula",
+        "points": "1",
+        "heros": "Sierra",
+        "imgHeros": "assets/heros/small/a-sierra.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "39",
+        "nom": "Hydra-Moana",
+        "points": "2",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "40",
+        "nom": "Edco",
+        "points": "2",
+        "heros": "Nevenka",
+        "imgHeros": "assets/heros/small/l-nevenka.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "1",
+        "joueur1": "Djaack",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      },
+      {
+        "idMatch": "2",
+        "joueur1": "Keg",
+        "joueur2": "JoliRougeGorge",
+        "vainqueur": ""
+      }
+    ]
   }
 ]

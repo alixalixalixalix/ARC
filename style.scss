@@ -16,7 +16,7 @@ body {
   padding: 0 36px 0 36px;
   margin: auto;
   @media (max-width: 600px) {
-    padding: 0 24px 0 24px;
+    padding: 0 16px 0 16px;
   }
 }
 
@@ -74,7 +74,6 @@ nav {
         pointer-events: none !important;
       }
       @media (max-width: 600px) {
-        font-size: 14px;
         padding-bottom: 8px;
       }
       a {
@@ -387,46 +386,80 @@ nav {
 
 /* SECTION FINALE */
 
-#sectionFinale {
+#sectionFinale__listTour {
   display: flex;
   align-items: center;
-  gap: 8px;
-.sectionFinale__listMatchs {
-  display: flex;
-  flex-direction: column;
   gap: 36px;
-  &__match {
+  flex-grow: 1;
+  overflow-x: scroll;
+  @media (max-width: 600px){
+    gap: 24px;
+  }
+  .sectionFinale__listMatchs {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    &__joueur {
-      padding: 4px 8px 4px 4px;
-      border-radius: 8px;
+    gap: 36px;
+    @media (max-width: 600px){
+      gap: 16px;
+    }
+    &__match {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: white;
-      & > p {
-        margin: 0;
-        color: $win-color;
-      }
-      div {
+      flex-direction: column;
+      gap: 4px;
+      &__joueur {
+        width: 200px;
+        padding: 4px 8px 4px 4px;
+        border-radius: 8px;
         display: flex;
         align-items: center;
-        gap: 6px;
-        img {
-          width: 36px;
-          height: 36px;
-          @media (max-width: 600px) {
-            width: 24px;
-            height: 24px;
-          }
-        }
-        p {
+        justify-content: space-between;
+        background-color: white;
+        & > p {
           margin: 0;
+          color: $win-color;
+        }
+        div {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          img {
+            width: 36px;
+            height: 36px;
+            @media (max-width: 600px) {
+              width: 24px;
+              height: 24px;
+            }
+          }
+          p {
+            margin: 0;
+          }
         }
       }
     }
   }
 }
+
+.finaliste {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.joueur__bo {
+  margin: 0;
+  background-color: white;
+  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    text-align: center;
+    margin:0;
+  }
+}
+
+.bo__win {
+  color: $win-color;
 }

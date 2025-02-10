@@ -15,7 +15,7 @@ body {
 }
 @media (max-width: 600px) {
   .marginApp {
-    padding: 0 24px 0 24px;
+    padding: 0 16px 0 16px;
   }
 }
 
@@ -79,7 +79,6 @@ nav ul li #linkFinale {
 }
 @media (max-width: 600px) {
   nav ul li {
-    font-size: 14px;
     padding-bottom: 8px;
   }
 }
@@ -402,22 +401,35 @@ nav ul li a {
 }
 
 /* SECTION FINALE */
-#sectionFinale {
+#sectionFinale__listTour {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 36px;
+  flex-grow: 1;
+  overflow-x: scroll;
 }
-#sectionFinale .sectionFinale__listMatchs {
+@media (max-width: 600px) {
+  #sectionFinale__listTour {
+    gap: 24px;
+  }
+}
+#sectionFinale__listTour .sectionFinale__listMatchs {
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
-#sectionFinale .sectionFinale__listMatchs__match {
+@media (max-width: 600px) {
+  #sectionFinale__listTour .sectionFinale__listMatchs {
+    gap: 16px;
+  }
+}
+#sectionFinale__listTour .sectionFinale__listMatchs__match {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-#sectionFinale .sectionFinale__listMatchs__match__joueur {
+#sectionFinale__listTour .sectionFinale__listMatchs__match__joueur {
+  width: 200px;
   padding: 4px 8px 4px 4px;
   border-radius: 8px;
   display: flex;
@@ -425,25 +437,50 @@ nav ul li a {
   justify-content: space-between;
   background-color: white;
 }
-#sectionFinale .sectionFinale__listMatchs__match__joueur > p {
+#sectionFinale__listTour .sectionFinale__listMatchs__match__joueur > p {
   margin: 0;
   color: #e9b901;
 }
-#sectionFinale .sectionFinale__listMatchs__match__joueur div {
+#sectionFinale__listTour .sectionFinale__listMatchs__match__joueur div {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-#sectionFinale .sectionFinale__listMatchs__match__joueur div img {
+#sectionFinale__listTour .sectionFinale__listMatchs__match__joueur div img {
   width: 36px;
   height: 36px;
 }
 @media (max-width: 600px) {
-  #sectionFinale .sectionFinale__listMatchs__match__joueur div img {
+  #sectionFinale__listTour .sectionFinale__listMatchs__match__joueur div img {
     width: 24px;
     height: 24px;
   }
 }
-#sectionFinale .sectionFinale__listMatchs__match__joueur div p {
+#sectionFinale__listTour .sectionFinale__listMatchs__match__joueur div p {
   margin: 0;
+}
+
+.finaliste {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.joueur__bo {
+  margin: 0;
+  background-color: white;
+  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.joueur__bo p {
+  text-align: center;
+  margin: 0;
+}
+
+.bo__win {
+  color: #e9b901;
 }/*# sourceMappingURL=style.css.map */
