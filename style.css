@@ -106,7 +106,7 @@ nav ul li a {
 
 #sectionFinale {
   display: none;
-  height: 100vh;
+  height: 100%;
 }
 
 #sectionCartes {
@@ -399,4 +399,51 @@ nav ul li a {
     padding: 16px;
     gap: 16px;
   }
+}
+
+/* SECTION FINALE */
+#sectionFinale {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#sectionFinale .sectionFinale__listMatchs {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+#sectionFinale .sectionFinale__listMatchs__match {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#sectionFinale .sectionFinale__listMatchs__match__joueur {
+  padding: 4px 8px 4px 4px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+#sectionFinale .sectionFinale__listMatchs__match__joueur > p {
+  margin: 0;
+  color: #e9b901;
+}
+#sectionFinale .sectionFinale__listMatchs__match__joueur div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#sectionFinale .sectionFinale__listMatchs__match__joueur div img {
+  width: 36px;
+  height: 36px;
+}
+@media (max-width: 600px) {
+  #sectionFinale .sectionFinale__listMatchs__match__joueur div img {
+    width: 24px;
+    height: 24px;
+  }
+}
+#sectionFinale .sectionFinale__listMatchs__match__joueur div p {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

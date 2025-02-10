@@ -103,7 +103,7 @@ nav {
 
 #sectionFinale {
   display: none;
-  height: 100vh;
+  height: 100%;
 }
 
 #sectionCartes {
@@ -383,4 +383,50 @@ nav {
     padding: 16px;
     gap: 16px;
   }
+}
+
+/* SECTION FINALE */
+
+#sectionFinale {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+.sectionFinale__listMatchs {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  &__match {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    &__joueur {
+      padding: 4px 8px 4px 4px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      & > p {
+        margin: 0;
+        color: $win-color;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        img {
+          width: 36px;
+          height: 36px;
+          @media (max-width: 600px) {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
 }
