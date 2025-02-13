@@ -1,6 +1,6 @@
 const fetchData = async () => {
   try {
-    const res = await fetch("/data/phaseFinale.json");
+    const res = await fetch("https://alixbocquier.fr/arc/data/phaseFinale.json");
     const dataPhaseFinale = await res.json();
 
     function generatorPhaseFinale(dataPhaseFinale) {

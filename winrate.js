@@ -6,7 +6,7 @@ if (window.innerWidth < 600) {
 
 const fetchData = async () => {
   try {
-    const res = await fetch("/data/winrate.json");
+    const res = await fetch("https://alixbocquier.fr/arc/data/winrate.json");
     const dataWinrate = await res.json();
 
     function generatorWinrateHeros(dataWinrate) {

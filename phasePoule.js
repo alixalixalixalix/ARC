@@ -1,8 +1,7 @@
 
 const fetchData = async () => {
     try {
-      //    const res = await fetch("https://alixbocquier.fr/arc/data/poules.json");
-      const res = await fetch("data/poules.json");
+      const res = await fetch("https://alixbocquier.fr/arc/data/phasePoule.json");
       const dataPoules = await res.json();
   
       function generatorPoules(dataPoules) {
@@ -22,7 +21,7 @@ const fetchData = async () => {
           const poulesContainer = document.createElement("div");
           poulesContainer.classList.add("poules__container");
           article.appendChild(poulesContainer);
-          // <div> onglets buttonq
+          // <div> onglets buttons
           const poulesContainerOnglets = document.createElement("div");
           poulesContainerOnglets.classList.add("poules__container__onglets");
           poulesContainer.appendChild(poulesContainerOnglets);

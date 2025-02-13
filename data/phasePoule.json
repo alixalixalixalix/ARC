@@ -1,0 +1,1018 @@
+[
+  {
+    "idPoule": "1",
+    "joueurs": [
+      {
+        "idJoueur": "1",
+        "nom": "Bliisters",
+        "points": "2",
+        "heros": "Treyst",
+        "imgHeros": "assets/heros/small/a-treyst.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "2",
+        "nom": "Calcifer",
+        "points": "1",
+        "heros": "Akesha",
+        "imgHeros": "assets/heros/small/y-akesha.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "3",
+        "nom": "Hedi",
+        "points": "4",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "4",
+        "nom": "Malo",
+        "points": "0",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "5",
+        "nom": "Nijisa",
+        "points": "3",
+        "heros": "Treyst",
+        "imgHeros": "assets/heros/small/a-treyst.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "1",
+        "joueur1": "Bliisters",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Malo",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Bliisters"
+      },
+      {
+        "idMatch": "2",
+        "joueur1": "Bliisters",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Calcifer",
+        "heros2": "assets/heros/small/y-akesha.png",
+        "vainqueur": "Bliisters"
+      },
+      {
+        "idMatch": "3",
+        "joueur1": "Bliisters",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Hedi",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Hedi"
+      },
+      {
+        "idMatch": "4",
+        "joueur1": "Bliisters",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Nijisa",
+        "heros2": "assets/heros/small/a-treyst.png",
+        "vainqueur": "Nijisa"
+      },
+      {
+        "idMatch": "5",
+        "joueur1": "Malo",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "Calcifer",
+        "heros2": "assets/heros/small/y-akesha.png",
+        "vainqueur": "Calcifer"
+      },
+      {
+        "idMatch": "6",
+        "joueur1": "Malo",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "Hedi",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Hedi"
+      },
+      {
+        "idMatch": "7",
+        "joueur1": "Malo",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "Nijisa",
+        "heros2": "assets/heros/small/a-treyst.png",
+        "vainqueur": "Nijisa"
+      },
+      {
+        "idMatch": "8",
+        "joueur1": "Calcifer",
+        "heros1": "assets/heros/small/y-akesha.png",
+        "joueur2": "Hedi",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Hedi"
+      },
+      {
+        "idMatch": "9",
+        "joueur1": "Calcifer",
+        "heros1": "assets/heros/small/y-akesha.png",
+        "joueur2": "Nijisa",
+        "heros2": "assets/heros/small/a-treyst.png",
+        "vainqueur": "Nijisa"
+      },
+      {
+        "idMatch": "10",
+        "joueur1": "Hedi",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Nijisa",
+        "heros2": "assets/heros/small/a-treyst.png",
+        "vainqueur": "Hedi"
+      }
+    ]
+  },
+  {
+    "idPoule": "2",
+    "joueurs": [
+      {
+        "idJoueur": "6",
+        "nom": "Ashaf",
+        "points": "3",
+        "heros": "Lindiwe",
+        "imgHeros": "assets/heros/small/y-lindiwe.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "7",
+        "nom": "EverydayLife",
+        "points": "2",
+        "heros": "Waru",
+        "imgHeros": "assets/heros/small/o-waru.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "8",
+        "nom": "Nimrel",
+        "points": "2",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "9",
+        "nom": "PetitRequinBleu",
+        "points": "0",
+        "heros": "Lindiwe",
+        "imgHeros": "assets/heros/small/y-lindiwe.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "10",
+        "nom": "Xanders",
+        "points": "3",
+        "heros": "Waru",
+        "imgHeros": "assets/heros/small/o-waru.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "11",
+        "joueur1": "PetitRequinBleu",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "Ashaf",
+        "heros2": "assets/heros/small/y-lindiwe.png",
+        "vainqueur": "Ashaf"
+      },
+      {
+        "idMatch": "12",
+        "joueur1": "PetitRequinBleu",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "Xanders",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "Xanders"
+      },
+      {
+        "idMatch": "13",
+        "joueur1": "PetitRequinBleu",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "Nimrel",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Nimrel"
+      },
+      {
+        "idMatch": "14",
+        "joueur1": "PetitRequinBleu",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "EverydayLife",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "EverydayLife"
+      },
+      {
+        "idMatch": "15",
+        "joueur1": "Ashaf",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "Xanders",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "Xanders"
+      },
+      {
+        "idMatch": "16",
+        "joueur1": "Ashaf",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "Nimrel",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Ashaf"
+      },
+      {
+        "idMatch": "17",
+        "joueur1": "Ashaf",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "EverydayLife",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "Ashaf"
+      },
+      {
+        "idMatch": "18",
+        "joueur1": "Xanders",
+        "heros1": "assets/heros/small/o-waru.png",
+        "joueur2": "Nimrel",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Xanders"
+      },
+      {
+        "idMatch": "19",
+        "joueur1": "Xanders",
+        "heros1": "assets/heros/small/o-waru.png",
+        "joueur2": "EverydayLife",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "EverydayLife"
+      },
+      {
+        "idMatch": "20",
+        "joueur1": "Nimrel",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "EverydayLife",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "Nimrel"
+      }
+    ]
+  },
+  {
+    "idPoule": "3",
+    "joueurs": [
+      {
+        "idJoueur": "11",
+        "nom": "Djaack",
+        "points": "3",
+        "heros": "Basira",
+        "imgHeros": "assets/heros/small/b-basira.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "12",
+        "nom": "JoliRougeGorge",
+        "points": "3",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "13",
+        "nom": "Kafock",
+        "points": "0",
+        "heros": "Sierra",
+        "imgHeros": "assets/heros/small/a-sierra.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "14",
+        "nom": "Keg",
+        "points": "2",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "15",
+        "nom": "Yann",
+        "points": "2",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "21",
+        "joueur1": "Kafock",
+        "heros1": "assets/heros/small/a-sierra.png",
+        "joueur2": "JoliRougeGorge",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "JoliRougeGorge"
+      },
+      {
+        "idMatch": "22",
+        "joueur1": "Kafock",
+        "heros1": "assets/heros/small/a-sierra.png",
+        "joueur2": "Djaack",
+        "heros2": "assets/heros/small/b-basira.png",
+        "vainqueur": "Djaack"
+      },
+      {
+        "idMatch": "23",
+        "joueur1": "Kafock",
+        "heros1": "assets/heros/small/a-sierra.png",
+        "joueur2": "Keg",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Keg"
+      },
+      {
+        "idMatch": "24",
+        "joueur1": "Kafock",
+        "heros1": "assets/heros/small/a-sierra.png",
+        "joueur2": "Yann",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Yann"
+      },
+      {
+        "idMatch": "25",
+        "joueur1": "JoliRougeGorge",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Djaack",
+        "heros2": "assets/heros/small/b-basira.png",
+        "vainqueur": "Djaack"
+      },
+      {
+        "idMatch": "26",
+        "joueur1": "JoliRougeGorge",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Keg",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "JoliRougeGorge"
+      },
+      {
+        "idMatch": "27",
+        "joueur1": "JoliRougeGorge",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Yann",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "JoliRougeGorge"
+      },
+      {
+        "idMatch": "28",
+        "joueur1": "Djaack",
+        "heros1": "assets/heros/small/b-basira.png",
+        "joueur2": "Keg",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Djaack"
+      },
+      {
+        "idMatch": "29",
+        "joueur1": "Djaack",
+        "heros1": "assets/heros/small/b-basira.png",
+        "joueur2": "Yann",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Yann"
+      },
+      {
+        "idMatch": "30",
+        "joueur1": "Keg",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "Yann",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Keg"
+      }
+    ]
+  },
+  {
+    "idPoule": "4",
+    "joueurs": [
+      {
+        "idJoueur": "16",
+        "nom": "JacquesCeler",
+        "points": "4",
+        "heros": "Treysr",
+        "imgHeros": "assets/heros/small/a-treyst.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "17",
+        "nom": "Renable",
+        "points": "3",
+        "heros": "Treyst",
+        "imgHeros": "assets/heros/small/a-treyst.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "18",
+        "nom": "Folzoqua",
+        "points": "1",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "19",
+        "nom": "LeRoyaumeDuDé",
+        "points": "2",
+        "heros": "Lindiwe",
+        "imgHeros": "assets/heros/small/y-lindiwe.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "20",
+        "nom": "Loutre",
+        "points": "0",
+        "heros": "Arjun",
+        "imgHeros": "assets/heros/small/m-arjun.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "31",
+        "joueur1": "JacquesCeler",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Renable",
+        "heros2": "assets/heros/small/a-treyst.png",
+        "vainqueur": "JacquesCeler"
+      },
+      {
+        "idMatch": "32",
+        "joueur1": "JacquesCeler",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Folzoqua",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "JacquesCeler"
+      },
+      {
+        "idMatch": "33",
+        "joueur1": "JacquesCeler",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "LeRoyaumeDuDé",
+        "heros2": "assets/heros/small/y-lindiwe.png",
+        "vainqueur": "JacquesCeler"
+      },
+      {
+        "idMatch": "34",
+        "joueur1": "JacquesCeler",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Loutre",
+        "heros2": "assets/heros/small/m-arjun.png",
+        "vainqueur": "JacquesCeler"
+      },
+      {
+        "idMatch": "35",
+        "joueur1": "Renable",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Folzoqua",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Renable"
+      },
+      {
+        "idMatch": "36",
+        "joueur1": "Renable",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "LeRoyaumeDuDé",
+        "heros2": "assets/heros/small/y-lindiwe.png",
+        "vainqueur": "Renable"
+      },
+      {
+        "idMatch": "37",
+        "joueur1": "Renable",
+        "heros1": "assets/heros/small/a-treyst.png",
+        "joueur2": "Loutre",
+        "heros2": "assets/heros/small/m-arjun.png",
+        "vainqueur": "Renable"
+      },
+      {
+        "idMatch": "38",
+        "joueur1": "Folzoqua",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "LeRoyaumeDuDé",
+        "heros2": "assets/heros/small/y-lindiwe.png",
+        "vainqueur": "LeRoyaumeDuDé"
+      },
+      {
+        "idMatch": "39",
+        "joueur1": "Folzoqua",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "Loutre",
+        "heros2": "assets/heros/small/m-arjun.png",
+        "vainqueur": "Folzoqua"
+      },
+      {
+        "idMatch": "40",
+        "joueur1": "LeRoyaumeDuDé",
+        "heros1": "assets/heros/small/y-lindiwe.png",
+        "joueur2": "Loutre",
+        "heros2": "assets/heros/small/m-arjun.png",
+        "vainqueur": "LeRoyaumeDuDé"
+      }
+    ]
+  },
+  {
+    "idPoule": "5",
+    "joueurs": [
+      {
+        "idJoueur": "21",
+        "nom": "EdgeSouls",
+        "points": "1",
+        "heros": "Sigismar",
+        "imgHeros": "assets/heros/small/o-sigismar.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "22",
+        "nom": "Légende",
+        "points": "3",
+        "heros": "Sigismar",
+        "imgHeros": "assets/heros/small/o-sigismar.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "23",
+        "nom": "ZazaLaRiboule",
+        "points": "2",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "24",
+        "nom": "McFlaïe",
+        "points": "3",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "25",
+        "nom": "Krazyk",
+        "points": "1",
+        "heros": "Waru",
+        "imgHeros": "assets/heros/small/o-waru.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "41",
+        "joueur1": "EdgeSouls",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "Légende",
+        "heros2": "assets/heros/small/o-sigismar.png",
+        "vainqueur": "Légende"
+      },
+      {
+        "idMatch": "42",
+        "joueur1": "EdgeSouls",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "ZazaLaRiboule",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "ZazaLaRiboule"
+      },
+      {
+        "idMatch": "43",
+        "joueur1": "EdgeSouls",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "McFlaïe",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "EdgeSouls"
+      },
+      {
+        "idMatch": "44",
+        "joueur1": "EdgeSouls",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "Krazyk",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "Krazyk"
+      },
+      {
+        "idMatch": "45",
+        "joueur1": "Légende",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "ZazaLaRiboule",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Légende"
+      },
+      {
+        "idMatch": "46",
+        "joueur1": "Légende",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "McFlaïe",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "McFlaïe"
+      },
+      {
+        "idMatch": "47",
+        "joueur1": "Légende",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "Krazyk",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "Légende"
+      },
+      {
+        "idMatch": "48",
+        "joueur1": "ZazaLaRiboule",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "McFlaïe",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "McFlaïe"
+      },
+      {
+        "idMatch": "49",
+        "joueur1": "ZazaLaRiboule",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "Krazyk",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "ZazaLaRiboule"
+      },
+      {
+        "idMatch": "50",
+        "joueur1": "McFlaïe",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "Krazyk",
+        "heros2": "assets/heros/small/o-waru.png",
+        "vainqueur": "McFlaïe"
+      }
+    ]
+  },
+  {
+    "idPoule": "6",
+    "joueurs": [
+      {
+        "idJoueur": "26",
+        "nom": "Marbull",
+        "points": "2",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "27",
+        "nom": "GrankorSalade",
+        "points": "1",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "28",
+        "nom": "XAT",
+        "points": "3",
+        "heros": "Kojo",
+        "imgHeros": "assets/heros/small/b-kojo.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "29",
+        "nom": "Pikevchu",
+        "points": "2",
+        "heros": "Rin",
+        "imgHeros": "assets/heros/small/m-rin.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "30",
+        "nom": "CafardAgile",
+        "points": "2",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "51",
+        "joueur1": "Marbull",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "GrankorSalade",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Marbull"
+      },
+      {
+        "idMatch": "52",
+        "joueur1": "Marbull",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "XAT",
+        "heros2": "assets/heros/small/b-kojo.png",
+        "vainqueur": "XAT"
+      },
+      {
+        "idMatch": "53",
+        "joueur1": "Marbull",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "Pikevchu",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Marbull"
+      },
+      {
+        "idMatch": "54",
+        "joueur1": "Marbull",
+        "heros1": "assets/heros/small/l-fen.png",
+        "joueur2": "CafardAgile",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "CafardAgile"
+      },
+      {
+        "idMatch": "55",
+        "joueur1": "GrankorSalade",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "XAT",
+        "heros2": "assets/heros/small/b-kojo.png",
+        "vainqueur": "GrankorSalade"
+      },
+      {
+        "idMatch": "56",
+        "joueur1": "GrankorSalade",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Pikevchu",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Pikevchu"
+      },
+      {
+        "idMatch": "57",
+        "joueur1": "GrankorSalade",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "CafardAgile",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "CafardAgile"
+      },
+      {
+        "idMatch": "58",
+        "joueur1": "XAT",
+        "heros1": "assets/heros/small/b-kojo.png",
+        "joueur2": "Pikevchu",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "XAT"
+      },
+      {
+        "idMatch": "59",
+        "joueur1": "XAT",
+        "heros1": "assets/heros/small/b-kojo.png",
+        "joueur2": "CafardAgile",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "XAT"
+      },
+      {
+        "idMatch": "60",
+        "joueur1": "Pikevchu",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "CafardAgile",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Pikevchu"
+      }
+    ]
+  },
+  {
+    "idPoule": "7",
+    "joueurs": [
+      {
+        "idJoueur": "31",
+        "nom": "Zupaw",
+        "points": "2",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "32",
+        "nom": "Stentor",
+        "points": "2",
+        "heros": "Sigismar",
+        "imgHeros": "assets/heros/small/o-sigismar.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "33",
+        "nom": "Kalhamn",
+        "points": "1",
+        "heros": "Kojo",
+        "imgHeros": "assets/heros/small/b-kojo.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "34",
+        "nom": "Y04nn",
+        "points": "2",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "35",
+        "nom": "Nahmaa",
+        "points": "3",
+        "heros": "Fen",
+        "imgHeros": "assets/heros/small/l-fen.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "61",
+        "joueur1": "Zupaw",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "Stentor",
+        "heros2": "assets/heros/small/o-sigismar.png",
+        "vainqueur": "Stentor"
+      },
+      {
+        "idMatch": "62",
+        "joueur1": "Zupaw",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "Kalhamn",
+        "heros2": "assets/heros/small/b-kojo.png",
+        "vainqueur": "Zupaw"
+      },
+      {
+        "idMatch": "63",
+        "joueur1": "Zupaw",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "Y04nn",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Zupaw"
+      },
+      {
+        "idMatch": "64",
+        "joueur1": "Zupaw",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "Nahmaa",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Nahmaa"
+      },
+      {
+        "idMatch": "65",
+        "joueur1": "Stentor",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "Kalhamn",
+        "heros2": "assets/heros/small/b-kojo.png",
+        "vainqueur": "Kalhamn"
+      },
+      {
+        "idMatch": "66",
+        "joueur1": "Stentor",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "Y04nn",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Stentor"
+      },
+      {
+        "idMatch": "67",
+        "joueur1": "Stentor",
+        "heros1": "assets/heros/small/o-sigismar.png",
+        "joueur2": "Nahmaa",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Nahmaa"
+      },
+      {
+        "idMatch": "68",
+        "joueur1": "Kalhamn",
+        "heros1": "assets/heros/small/b-kojo.png",
+        "joueur2": "Y04nn",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Y04nn"
+      },
+      {
+        "idMatch": "69",
+        "joueur1": "Kalhamn",
+        "heros1": "assets/heros/small/b-kojo.png",
+        "joueur2": "Nahmaa",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Nahmaa"
+      },
+      {
+        "idMatch": "70",
+        "joueur1": "Y04nn",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Nahmaa",
+        "heros2": "assets/heros/small/l-fen.png",
+        "vainqueur": "Y04nn"
+      }
+    ]
+  },
+  {
+    "idPoule": "8",
+    "joueurs": [
+      {
+        "idJoueur": "36",
+        "nom": "Raloufifa",
+        "points": "2",
+        "heros": "Gulrang",
+        "imgHeros": "assets/heros/small/o-gulrang.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "37",
+        "nom": "Delula",
+        "points": "3",
+        "heros": "Afanas",
+        "imgHeros": "assets/heros/small/y-afanas.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "38",
+        "nom": "Insoula",
+        "points": "1",
+        "heros": "Subhash",
+        "imgHeros": "assets/heros/small/a-subhash.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "39",
+        "nom": "Hydra-Moana",
+        "points": "2",
+        "heros": "Teija",
+        "imgHeros": "assets/heros/small/m-teija.png",
+        "decklist": "https://alteredtcg.fr"
+      },
+      {
+        "idJoueur": "40",
+        "nom": "Edco",
+        "points": "2",
+        "heros": "Nevenka",
+        "imgHeros": "assets/heros/small/l-nevenka.png",
+        "decklist": "https://alteredtcg.fr"
+      }
+    ],
+    "matchs": [
+      {
+        "idMatch": "71",
+        "joueur1": "Raloufifa",
+        "heros1": "assets/heros/small/o-gulrang.png",
+        "joueur2": "Delula",
+        "heros2": "assets/heros/small/y-afanas.png",
+        "vainqueur": "Raloufifa"
+      },
+      {
+        "idMatch": "72",
+        "joueur1": "Raloufifa",
+        "heros1": "assets/heros/small/o-gulrang.png",
+        "joueur2": "Insoula",
+        "heros2": "assets/heros/small/a-subhash.png",
+        "vainqueur": "Raloufifa"
+      },
+      {
+        "idMatch": "73",
+        "joueur1": "Raloufifa",
+        "heros1": "assets/heros/small/o-gulrang.png",
+        "joueur2": "Hydra-Moana",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Hydra-Moana"
+      },
+      {
+        "idMatch": "74",
+        "joueur1": "Raloufifa",
+        "heros1": "assets/heros/small/o-gulrang.png",
+        "joueur2": "Edco",
+        "heros2": "assets/heros/small/l-nevenka.png",
+        "vainqueur": "Edco"
+      },
+      {
+        "idMatch": "75",
+        "joueur1": "Delula",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Insoula",
+        "heros2": "assets/heros/small/a-subhash.png",
+        "vainqueur": "Delula"
+      },
+      {
+        "idMatch": "76",
+        "joueur1": "Delula",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Hydra-Moana",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Delula"
+      },
+      {
+        "idMatch": "77",
+        "joueur1": "Delula",
+        "heros1": "assets/heros/small/y-afanas.png",
+        "joueur2": "Edco",
+        "heros2": "assets/heros/small/l-nevenka.png",
+        "vainqueur": "Delula"
+      },
+      {
+        "idMatch": "78",
+        "joueur1": "Insoula",
+        "heros1": "assets/heros/small/a-subhash.png",
+        "joueur2": "Hydra-Moana",
+        "heros2": "assets/heros/small/m-teija.png",
+        "vainqueur": "Insoula"
+      },
+      {
+        "idMatch": "79",
+        "joueur1": "Insoula",
+        "heros1": "assets/heros/small/a-subhash.png",
+        "joueur2": "Edco",
+        "heros2": "assets/heros/small/l-nevenka.png",
+        "vainqueur": "Edco"
+      },
+      {
+        "idMatch": "80",
+        "joueur1": "Hydra-Moana",
+        "heros1": "assets/heros/small/m-teija.png",
+        "joueur2": "Edco",
+        "heros2": "assets/heros/small/l-nevenka.png",
+        "vainqueur": "Hydra-Moana"
+      }
+    ]
+  }
+]
